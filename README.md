@@ -1,1 +1,1 @@
-# react-projects-from-johnsmilga
+# React Projects
