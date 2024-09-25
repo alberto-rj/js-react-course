@@ -5,4 +5,4 @@
 ### Key topics covered
 
 - useState
-- conditional-rendering
+- conditional rendering
