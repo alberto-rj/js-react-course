@@ -9,7 +9,6 @@
   - conditional rendering
 
 <br />
-<br />
 
 ## 2. Tours
 
