@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+vite.config.js
+eslint.config.js
