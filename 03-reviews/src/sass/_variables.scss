@@ -1,0 +1,44 @@
+:root {
+  /* primary colos */
+  --color-primary-1: hsla(243, 100%, 68%, 1);
+  --color-primary-2: hsla(243, 100%, 87%, 1);
+
+  /* secondary colors */
+  --color-secondary-1: hsla(222, 47%, 11%, 1);
+  --color-secondary-2: hsla(215, 19%, 35%, 1);
+  --color-secondary-3: hsla(210, 40%, 98%, 1);
+  --color-secondary-4: hsla(0, 0%, 100%, 1);
+
+  // sizes
+  --s-0: 0;
+  --s-1: 0.0625rem;
+  --s-2: 0.125rem;
+  --s-4: 0.25rem;
+  --s-6: 0.375rem;
+  --s-8: 0.5rem;
+  --s-10: 0.625rem;
+  --s-12: 0.75rem;
+  --s-14: 0.875rem;
+  --s-16: 1rem;
+  --s-20: 1.25rem;
+  --s-24: 1.5rem;
+  --s-28: 1.75rem;
+  --s-32: 2rem;
+  --s-36: 2.25rem;
+  --s-48: 3rem;
+
+  // line height
+  --lh-100: 1;
+  --lh-150: 1.5;
+  --lh-200: 2;
+
+  /* font weight */
+  --f-w-400: 400;
+  --f-w-500: 500;
+  --f-w-700: 700;
+
+  /* shadows */
+  --shadow:
+    0px 1px 2px 0px hsla(0, 0%, 0%, 0.06),
+    0px 1px 3px 0px hsla(0, 0%, 0%, 0.1);
+}
