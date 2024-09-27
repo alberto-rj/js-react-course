@@ -21,4 +21,13 @@
   - conditional rendering
 
 <br />
+
+## 3. Reviews
+
+- Links:
+  - [Preview site](https://my-03-reviews.netlify.app/) 
+  - [Preview code](https://github.com/alberto-rj/react-projects-from-johnsmilga/tree/main/03-reviews)
+- Key topics covered:
+  - useState
+  
 <br />
