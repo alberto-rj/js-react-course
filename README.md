@@ -31,3 +31,14 @@
   - useState
   
 <br />
+
+## 04. Accordion
+
+- Links:
+  - [Preview site](https://my-04-accordion.netlify.app/) 
+  - [Preview code](https://github.com/alberto-rj/react-projects-from-johnsmilga/tree/main/04-accordion)
+- Key topics covered:
+  - useState
+  - conditional rendering
+  
+<br />
