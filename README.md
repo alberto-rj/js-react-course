@@ -1,8 +1,8 @@
 # React Projects
 
-## 1. Birthday Reminder 
+## 01. Birthday Reminder 
 - Links:
-  - [Preview site](https://my-birthday-buddy.netlify.app)
+  - [Preview site](https://my-01-birthday-reminder.netlify.app/)
   - [Preview code](https://github.com/alberto-rj/react-projects-from-johnsmilga/tree/main/01-birthday-buddy)
 - Key topics covered:
   - useState
@@ -10,7 +10,7 @@
 
 <br />
 
-## 2. Tours
+## 02. Tours
 
 - Links:
   - [Preview site](https://my-02-tours.netlify.app/) 
@@ -22,7 +22,7 @@
 
 <br />
 
-## 3. Reviews
+## 03. Reviews
 
 - Links:
   - [Preview site](https://my-03-reviews.netlify.app/) 
