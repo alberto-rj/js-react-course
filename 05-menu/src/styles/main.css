@@ -1,0 +1,197 @@
+:root {
+  --primary-1: hsla(38, 92%, 50%, 1);
+  --primary-2: hsla(38, 46%, 40%, 1);
+  --secondary-1: hsla(222, 47%, 11%, 1);
+  --secondary-2: hsla(215, 16%, 47%, 1);
+  --secondary-3: hsla(210, 40%, 98%, 1);
+  /* shadow */
+  --shadow:
+    0px 1px 2px 0px hsla(0, 0%, 0%, 0.06),
+    0px 1px 3px 0px hsla(0, 0%, 0%, 0.1);
+  --s-0: 0;
+  --s-1: 0.0625rem;
+  --s-2: 0.125rem;
+  --s-4: 0.25rem;
+  --s-6: 0.375rem;
+  --s-8: 0.5rem;
+  --s-12: 0.75rem;
+  --s-13: 0.8125rem;
+  --s-16: 1rem;
+  --s-18: 1.125rem;
+  --s-20: 1.25rem;
+  --s-24: 1.5rem;
+  --s-32: 2rem;
+  --s-40: 2.5rem;
+  --s-64: 4rem;
+  --l-h-100: 1;
+  --l-h-125: 1.25;
+  --l-h-150: 1.5;
+  --l-h-175: 1.75;
+  --l-h-200: 2;
+}
+
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: var(--s-0);
+  padding: var(--s-0);
+}
+
+html {
+  background: var(--secondary-3);
+  color: var(--secondary-2);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: var(--s-16);
+  font-weight: 400;
+  letter-spacing: var(--s-1);
+  line-height: var(--l-h-100);
+}
+
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.page__content {
+  margin-inline: auto;
+  padding-block: var(--s-64);
+  max-width: 68.75rem;
+  width: 96%;
+}
+.page__title {
+  color: var(--secondary-1);
+  font-size: var(--s-40);
+  font-weight: 400;
+  letter-spacing: var(--s-1);
+  text-align: center;
+  text-transform: capitalize;
+}
+.page__title::after {
+  background: var(--primary-1);
+  content: "";
+  display: block;
+  margin-block: var(--s-16) var(--s-32);
+  margin-inline: auto;
+  min-height: var(--s-4);
+  width: 7rem;
+}
+
+.loading {
+  font-size: var(--s-24);
+  letter-spacing: var(--s-2);
+  text-align: center;
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: var(--s-18);
+  max-width: 20rem;
+  margin-inline: auto;
+}
+.tab__item {
+  background: var(--primary-1);
+  border: 1px solid transparent;
+  border-radius: var(--s-4);
+  box-shadow: var(--shadow);
+  color: var(--secondary-3);
+  cursor: pointer;
+  font-size: var(--s-13);
+  padding: var(--s-6) var(--s-12);
+  text-transform: capitalize;
+  transition: background 0.4s ease-in-out;
+}
+.tab__item:hover {
+  background: var(--primary-2);
+}
+.tab__item:focus-visible {
+  outline: 4px dashed var(--primary-2);
+  outline-offset: 2px;
+}
+.tab__item--active {
+  background: var(--primary-2);
+}
+
+@media (min-width: 23.75rem) {
+  .tab {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-32);
+  align-items: start;
+  justify-content: center;
+  justify-items: center;
+  list-style: none;
+  padding-block: var(--s-64);
+}
+.menu__item {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: start;
+  justify-items: start;
+  border-radius: var(--s-4);
+  box-shadow: var(--shadow);
+  max-width: 23rem;
+  transition: transform 0.4s ease-in-out;
+}
+.menu__item:hover {
+  cursor: pointer;
+  transform: scale(1.0625);
+}
+.menu__img {
+  border-radius: var(--s-4) var(--s-4) 0 0;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.menu__body {
+  padding: var(--s-24);
+  padding-top: var(--s-32);
+}
+.menu__divider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--s-16);
+}
+.menu__title {
+  color: var(--secondary-1);
+  font-size: var(--s-20);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.menu__price {
+  background: var(--primary-1);
+  border-radius: var(--s-4);
+  color: var(--secondary-3);
+  padding: var(--s-4) var(--s-8);
+  max-width: 4.375rem;
+}
+.menu__description {
+  line-height: var(--l-h-200);
+  margin-top: var(--s-20);
+}
+
+@media (min-width: 41.25rem) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 64rem) {
+  .menu {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}/*# sourceMappingURL=main.css.map */

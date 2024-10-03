@@ -1,0 +1,32 @@
+.page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+
+  &__content {
+    margin-inline: auto;
+    padding-block: var(--s-64);
+    max-width: 68.75rem;
+    width: 96%;
+  }
+
+  &__title {
+    color: var(--secondary-1);
+    font-size: var(--s-40);
+    font-weight: 400;
+    letter-spacing: var(--s-1);
+    text-align: center;
+    text-transform: capitalize;
+
+    &::after {
+      background: var(--primary-1);
+      content: '';
+      display: block;
+      margin-block: var(--s-16) var(--s-32);
+      margin-inline: auto;
+      min-height: var(--s-4);
+      width: 7rem;
+    }
+  }
+}
