@@ -42,3 +42,17 @@
   - conditional rendering
   
 <br />
+
+## 05. Menu
+
+- Links:
+  - [Preview site](https://my-05-menu.netlify.app/) 
+  - [Preview code](https://github.com/alberto-rj/react-projects-from-johnsmilga/tree/main/05-menu)
+- Key topics covered:
+  - useState
+  - useEffect
+  - useContext
+  - createContext
+  - conditional rendering
+  
+<br />
