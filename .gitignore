@@ -1,1 +1,11 @@
-react-app
+# Ignore the default starter
+react-app/
+
+# Ignore all node_modules, or any final project
+**/node_modules/
+**/final/
+
+# Ignore build, dist, or any project output
+**/build/
+**/dist/
+**/out/
