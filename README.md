@@ -1,12 +1,58 @@
-# React Projects
+# 🚀 React Projects
 
-These are the projects that I have built while I was learning React.js with John Smilga in his course.
+This repository contains projects I built while learning **React.js** through [**John Smilga's course**](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF). Each project focuses on essential React concepts, making it useful for beginners who want to practice or developers looking to explore specific implementations.
 
-| Project                                      | Live site                                                    | Key topics covered                                                    |
-| -------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
-| [01. Birthday Reminder](./01-birthday-buddy) | [Preview site](https://my-01-birthday-reminder.netlify.app/) | useState; conditional rendering                                       |
-| [02. Tours](./02-tours)                      | [Preview site](https://my-02-tours.netlify.app/)             | useState; useEffect; conditional rendering;                           |
-| [03. Reviews](./03-reviews)                  | [Preview site](https://my-03-reviews.netlify.app/)           | useState                                                              |
-| [04. Accordion](./04-accordion)              | [Preview site](https://my-04-accordion.netlify.app/)         | useState; conditional rendering                                       |
-| [05. Menu](./05-menu)                        | [Preview site](https://my-05-menu.netlify.app/)              | useState; useEffect; useContext; createContext; conditional rendering |
-| [08. Lorem Ipsum](./08-lorem-ipsum)          | [Preview site](https://my-08-lorem-ipsum.netlify.app/)       | useState; Form (Controlled Inputs)                                    |
+## 📂 Projects
+
+| #   | Project                                  | Live Demo                                                  | Key Topics Covered                                                            |
+| --- | ---------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| 01  | [Birthday Reminder](./01-birthday-buddy) | [🔗 Preview](https://my-01-birthday-reminder.netlify.app/) | `useState`, Conditional Rendering                                             |
+| 02  | [Tours](./02-tours)                      | [🔗 Preview](https://my-02-tours.netlify.app/)             | `useState`, `useEffect`, Conditional Rendering                                |
+| 03  | [Reviews](./03-reviews)                  | [🔗 Preview](https://my-03-reviews.netlify.app/)           | `useState`                                                                    |
+| 04  | [Accordion](./04-accordion)              | [🔗 Preview](https://my-04-accordion.netlify.app/)         | `useState`, Conditional Rendering                                             |
+| 05  | [Menu](./05-menu)                        | [🔗 Preview](https://my-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, Conditional Rendering |
+| 08  | [Lorem Ipsum](./08-lorem-ipsum)          | [🔗 Preview](https://my-08-lorem-ipsum.netlify.app/)       | `useState`, Forms (Controlled Inputs)                                         |
+
+## 🛠 How to Run Locally
+
+If you want to run any of these projects locally, follow these steps:
+
+1. **Clone this repository**:
+
+   ```bash
+   git clone https://github.com/alberto-rj/react-projects-from-johnsmilga.git
+   cd react-projects-from-johnsmilga
+   ```
+
+2. **Navigate to the desired project directory:**
+
+   ```bash
+     cd 01-birthday-buddy  # Example: Access the first project
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the project:**
+
+   ```bash
+   npm run dev
+   ```
+
+The project will run at [http://localhost:5173/](http://localhost:5173/) in your browser.
+
+## 🤝 Contributing
+
+If you would like to contribute to this repository, feel free to:
+
+Suggest improvements to the structure or code.
+Add new features based on existing projects.
+Report issues or bugs.
+
+### 📌 Notes
+
+These projects were built following the course content and can be enhanced with new features.
+This repository serves as a learning guide for anyone who wants to practice React progressively.
