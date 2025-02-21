@@ -1,4 +1,4 @@
-const ColorForm = ({ onSubmit, onChange, isValid, color }) => {
+const ColorForm = ({ onSubmit, onChange, color }) => {
   return (
     <div className='container'>
       <form
