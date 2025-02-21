@@ -40,7 +40,6 @@ const App = () => {
       toast.success(`Colors successfully generated!`);
     } catch (error) {
       toast.error(`Failed to generate colors!`);
-      console.error(error.message);
     }
   };
 
@@ -48,14 +47,14 @@ const App = () => {
     <main>
       <ToastContainer position='top-center' />
       <section className='container'>
-        <h2>Color Generator </h2>
+        <h4>Color Generator </h4>
         <ColorForm
           onChange={handleChange}
           onSubmit={handleSubmit}
           color={color}
         />
-        <ColorList colors={colors} />
       </section>
+      <ColorList colors={colors} />
     </main>
   );
 };

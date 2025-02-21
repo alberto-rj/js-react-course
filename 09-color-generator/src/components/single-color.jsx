@@ -17,10 +17,9 @@ const SingleColor = ({ color }) => {
   const copyToClipboard = async (text) => {
     try {
       await navigator.clipboard.writeText(text);
-      toast.success('Copied to the clipboard!');
+      toast.success('Color copied to the clipboard!');
     } catch (error) {
-      toast.error('Failed to copy to the clipboard!');
-      console.error('Failed to copy text:', error);
+      toast.error("Color can't be copied to the clipboard!");
     }
   };
 
