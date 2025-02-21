@@ -21,7 +21,7 @@ const App = () => {
 
   const handleChange = (e) => {
     const {
-      target: { value, type },
+      target: { value },
     } = e;
     setColor(value);
   };
