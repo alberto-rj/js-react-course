@@ -1,6 +1,7 @@
 # Ignore node_modules and final project folders globally
 node_modules/
 final/
+react-app/
 
 # Ignore common build folders
 build/
