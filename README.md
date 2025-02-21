@@ -43,7 +43,7 @@ If you want to run any of these projects locally, follow these steps:
    npm run dev
    ```
 
-The project will run at [http://localhost:5173/](http://localhost:5173/) in your browser.
+The project will run at [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 🤝 Contributing
 
