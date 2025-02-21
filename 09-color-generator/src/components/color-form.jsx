@@ -6,15 +6,11 @@ const ColorForm = ({ onSubmit, onChange, color }) => {
     >
       <input
         type='color'
-        id='color'
-        name='color'
         value={color}
         onChange={onChange}
       />
       <input
         type='text'
-        id='text'
-        name='text'
         value={color}
         onChange={onChange}
         placeholder={color}
