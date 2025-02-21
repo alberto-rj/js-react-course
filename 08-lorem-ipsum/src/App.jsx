@@ -8,7 +8,7 @@ const App = () => {
 
   const handleChange = (event) => {
     const { target } = event;
-    setCount(Number(target.value));
+    setCount(Number.parseInt(target.value));
   };
 
   const handleSubmit = (event) => {
