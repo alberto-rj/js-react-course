@@ -4,16 +4,17 @@ This repository contains projects I built while learning **React.js** through [*
 
 ## 📂 Projects
 
-| #   | Project                                  | Live Demo                                                  | Key Topics Covered                                                                                         |
-| --- | ---------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 01  | [Birthday Reminder](./01-birthday-buddy) | [🔗 Preview](https://my-01-birthday-reminder.netlify.app/) | `useState`, Conditional Rendering                                                                          |
-| 02  | [Tours](./02-tours)                      | [🔗 Preview](https://my-02-tours.netlify.app/)             | `useState`, `useEffect`, Conditional Rendering                                                             |
-| 03  | [Reviews](./03-reviews)                  | [🔗 Preview](https://my-03-reviews.netlify.app/)           | `useState`                                                                                                 |
-| 04  | [Accordion](./04-accordion)              | [🔗 Preview](https://my-04-accordion.netlify.app/)         | `useState`, Conditional Rendering                                                                          |
-| 05  | [Menu](./05-menu)                        | [🔗 Preview](https://my-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, List and Keys, Conditional Rendering               |
-| 08  | [Lorem Ipsum](./08-lorem-ipsum)          | [🔗 Preview](https://my-08-lorem-ipsum.netlify.app/)       | `useState`, List and Keys, Events, Forms (Controlled Inputs)                                               |
-| 09  | [Color Generator](./09-color-generator)  | [🔗 Preview](https://my-09-color-generator.netlify.app/)   | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs) |
-| 10  | [Grocery Bud](./10-grocery-bud)          | [🔗 Preview](https://my-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs) |
+| #   | Project                                  | Live Demo                                                  | Key Topics Covered                                                                                                                 |
+| --- | ---------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Birthday Reminder](./01-birthday-buddy) | [🔗 Preview](https://my-01-birthday-reminder.netlify.app/) | `useState`, Conditional Rendering                                                                                                  |
+| 02  | [Tours](./02-tours)                      | [🔗 Preview](https://my-02-tours.netlify.app/)             | `useState`, `useEffect`, Conditional Rendering                                                                                     |
+| 03  | [Reviews](./03-reviews)                  | [🔗 Preview](https://my-03-reviews.netlify.app/)           | `useState`                                                                                                                         |
+| 04  | [Accordion](./04-accordion)              | [🔗 Preview](https://my-04-accordion.netlify.app/)         | `useState`, Conditional Rendering                                                                                                  |
+| 05  | [Menu](./05-menu)                        | [🔗 Preview](https://my-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, List and Keys, Conditional Rendering                                       |
+| 08  | [Lorem Ipsum](./08-lorem-ipsum)          | [🔗 Preview](https://my-08-lorem-ipsum.netlify.app/)       | `useState`, List and Keys, Events, Forms (Controlled Inputs)                                                                       |
+| 09  | [Color Generator](./09-color-generator)  | [🔗 Preview](https://my-09-color-generator.netlify.app/)   | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs)                         |
+| 10  | [Grocery Bud](./10-grocery-bud)          | [🔗 Preview](https://my-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs and Uncontrolled Inputs) |
+| 11  | [Navbar](./11-navbar)                    | [🔗 Preview](https://my-11-navbar.netlify.app/)            | `useState`, `useEffect`, `useRef`, Conditional Rendering, List and Keys, Events                                                    |
 
 ## 🛠 How to Run Locally
 
