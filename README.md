@@ -13,6 +13,7 @@ This repository contains projects I built while learning **React.js** through [*
 | 05  | [Menu](./05-menu)                        | [🔗 Preview](https://my-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, List and Keys, Conditional Rendering               |
 | 08  | [Lorem Ipsum](./08-lorem-ipsum)          | [🔗 Preview](https://my-08-lorem-ipsum.netlify.app/)       | `useState`, List and Keys, Events, Forms (Controlled Inputs)                                               |
 | 09  | [Color Generator](./09-color-generator)  | [🔗 Preview](https://my-09-color-generator.netlify.app/)   | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs) |
+| 10  | [Grocery Bud](./10-grocery-bud)          | [🔗 Preview](https://my-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs) |
 
 ## 🛠 How to Run Locally
 
