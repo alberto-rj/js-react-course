@@ -16,6 +16,7 @@ This repository contains projects I built while learning **React.js** through [*
 | 10  | [Grocery Bud](./10-grocery-bud)          | [🔗 Preview](https://my-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled and Uncontrolled Inputs)        |
 | 11  | [Navbar](./11-navbar)                    | [🔗 Preview](https://my-11-navbar.netlify.app/)            | `useState`, `useEffect`, `useRef`, Conditional Rendering, List and Keys, Events                                                    |
 | 12  | [Modal and Sidebar](./12-sidebar-modal)  | [🔗 Preview](https://my-12-sidebar-modal.netlify.app/)     | `useState`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks, Conditional Rendering, List and Keys, Events |
+| 14  | [Cart](./14-cart)                        | [🔗 Preview](https://my-14-cart.netlify.app/)              | `useReducer`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks                                             |
 
 ## 🛠 How to Run Locally
 
