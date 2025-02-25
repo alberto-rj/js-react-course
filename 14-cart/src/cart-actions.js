@@ -3,8 +3,7 @@ const ACTION_INCREASE = 2;
 const ACTION_DECREASE = 3;
 const ACTION_REMOVE = 4;
 const ACTION_CLEAR = 5;
-const ACTION_TOTAL = 6;
-const ACTION_FETCH = 7;
+const ACTION_FETCH = 8;
 
 export {
   ACTION_ADD,
@@ -12,6 +11,5 @@ export {
   ACTION_DECREASE,
   ACTION_REMOVE,
   ACTION_CLEAR,
-  ACTION_TOTAL,
   ACTION_FETCH,
 };

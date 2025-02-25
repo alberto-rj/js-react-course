@@ -3,7 +3,7 @@ import { useAppProvider } from './AppProvider';
 
 const Navbar = () => {
   const { state } = useAppProvider();
-  const totalAmount = state.cart.items.size;
+  const totalAmount = state.cart.getSize();
 
   return (
     <nav>

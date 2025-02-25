@@ -4,7 +4,6 @@ import {
   ACTION_DECREASE,
   ACTION_INCREASE,
   ACTION_REMOVE,
-  ACTION_TOTAL,
 } from './cart-actions';
 
 const CartItem = ({ id, img, title, price, amount }) => {
@@ -15,9 +14,6 @@ const CartItem = ({ id, img, title, price, amount }) => {
       type: ACTION_REMOVE,
       payload: { id },
     });
-    dispatch({
-      type: ACTION_TOTAL,
-    });
   };
 
   const handleIncrease = () => {
@@ -25,18 +21,12 @@ const CartItem = ({ id, img, title, price, amount }) => {
       type: ACTION_INCREASE,
       payload: { id },
     });
-    dispatch({
-      type: ACTION_TOTAL,
-    });
   };
 
   const handleDecrease = () => {
     dispatch({
       type: ACTION_DECREASE,
       payload: { id },
-    });
-    dispatch({
-      type: ACTION_TOTAL,
     });
   };
 

@@ -1,13 +1,13 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
 import reducer from './cart-reducer';
-import { ACTION_ADD, ACTION_FETCH, ACTION_TOTAL } from './cart-actions';
-import { createCart } from './util';
+import { ACTION_ADD, ACTION_FETCH } from './cart-actions';
+import createCart from './cart';
 
-// const API_LOCAL_URL = '/src/data.json';
+const API_LOCAL_URL = '/src/data.json';
 const API_REMOTE_URL =
   'https://www.course-api.com/react-useReducer-cart-project';
 
-const API_URL = API_REMOTE_URL;
+const API_URL = API_LOCAL_URL;
 
 const initialState = {
   cart: createCart(),
@@ -32,15 +32,12 @@ const AppProvider = ({ children }) => {
           throw new Error(`${response.status} - ${response.statusText}`);
         }
         const cartItems = await response.json();
+
         cartItems.forEach((item) => {
           dispatch({
             type: ACTION_ADD,
             payload: { ...item },
           });
-        });
-
-        dispatch({
-          type: ACTION_TOTAL,
         });
 
         dispatch({

@@ -1,19 +1,15 @@
 import { useAppProvider } from './AppProvider';
-import { ACTION_CLEAR, ACTION_TOTAL } from './cart-actions';
+import { ACTION_CLEAR } from './cart-actions';
 import CartItem from './CartItem';
 
 const CartContainer = () => {
   const { state, dispatch } = useAppProvider();
 
-  const cartArray = [...state.cart.items.values()];
+  const cartItems = state.cart.getItems();
+  const cartTotal = state.cart.getTotal();
 
   const handleClear = () => {
-    dispatch({
-      type: ACTION_CLEAR,
-    });
-    dispatch({
-      type: ACTION_TOTAL,
-    });
+    dispatch({ type: ACTION_CLEAR });
   };
 
   if (state.isLoading) {
@@ -40,7 +36,7 @@ const CartContainer = () => {
     );
   }
 
-  if (cartArray.length === 0) {
+  if (cartItems.length === 0) {
     return (
       <section className='cart'>
         {/* cart header */}
@@ -59,11 +55,11 @@ const CartContainer = () => {
       </header>
       {/* cart items */}
       <div>
-        {cartArray.map((cartItem) => {
+        {cartItems.map((item) => {
           return (
             <CartItem
-              key={cartItem.id}
-              {...cartItem}
+              key={item.id}
+              {...item}
             />
           );
         })}
@@ -73,7 +69,7 @@ const CartContainer = () => {
         <hr />
         <div>
           <h5 className='cart-total'>
-            total <span>${state.cart.total}</span>
+            total <span>${cartTotal}</span>
           </h5>
         </div>
         <button
