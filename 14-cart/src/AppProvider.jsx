@@ -3,11 +3,11 @@ import reducer from './cart-reducer';
 import { ACTION_ADD, ACTION_FETCH } from './cart-actions';
 import createCart from './cart';
 
-const API_LOCAL_URL = '/src/data.json';
+// const API_LOCAL_URL = '/src/data.json';
 const API_REMOTE_URL =
   'https://www.course-api.com/react-useReducer-cart-project';
 
-const API_URL = API_LOCAL_URL;
+const API_URL = API_REMOTE_URL;
 
 const initialState = {
   cart: createCart(),
