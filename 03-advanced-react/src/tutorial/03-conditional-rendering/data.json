@@ -1,0 +1,7 @@
+{
+  "id": 3,
+  "name": "John Doe",
+  "avatar_url": "./src/assets/person-3.jpg",
+  "bio": "CEO and founder of the iTalk",
+  "company": "iTalk Inc"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "login": "Anna Smith",
+    "avatar_url": "./src/assets/person-1.jpg",
+    "html_url": "https://github.com"
+  },
+  {
+    "id": 2,
+    "login": "Benjamim Scott",
+    "avatar_url": "./src/assets/person-2.jpg",
+    "html_url": "https://github.com"
+  },
+  {
+    "id": 3,
+    "login": "Critian James",
+    "avatar_url": "./src/assets/person-3.jpg",
+    "html_url": "https://github.com"
+  },
+  {
+    "id": 4,
+    "login": "Jane Doe",
+    "avatar_url": "./src/assets/person-4.jpg",
+    "html_url": "https://github.com"
+  }
+]

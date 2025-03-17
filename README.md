@@ -1,22 +1,28 @@
-# 🚀 React Projects
+# 🚀 React Projects - John Smilga
 
-This repository contains projects I built while learning **React.js** through [**John Smilga's course**](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF). Each project focuses on essential React concepts, making it useful for beginners who want to practice or developers looking to explore specific implementations.
+This repository contains projects I built while learning **React.js** through [**John Smilga's course**](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF).
 
-## 📂 Projects
+## 📂 Fundamental Projects
 
-| #   | Project                                  | Live Demo                                                  | Key Topics Covered                                                                                                                 |
-| --- | ---------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [Birthday Reminder](./01-birthday-buddy) | [🔗 Preview](https://my-01-birthday-reminder.netlify.app/) | `useState`, Conditional Rendering                                                                                                  |
-| 02  | [Tours](./02-tours)                      | [🔗 Preview](https://my-02-tours.netlify.app/)             | `useState`, `useEffect`, Conditional Rendering                                                                                     |
-| 03  | [Reviews](./03-reviews)                  | [🔗 Preview](https://my-03-reviews.netlify.app/)           | `useState`                                                                                                                         |
-| 04  | [Accordion](./04-accordion)              | [🔗 Preview](https://my-04-accordion.netlify.app/)         | `useState`, Conditional Rendering                                                                                                  |
-| 05  | [Menu](./05-menu)                        | [🔗 Preview](https://my-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, List and Keys, Conditional Rendering                                       |
-| 08  | [Lorem Ipsum](./08-lorem-ipsum)          | [🔗 Preview](https://my-08-lorem-ipsum.netlify.app/)       | `useState`, List and Keys, Events, Forms (Controlled Inputs)                                                                       |
-| 09  | [Color Generator](./09-color-generator)  | [🔗 Preview](https://my-09-color-generator.netlify.app/)   | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs)                         |
-| 10  | [Grocery Bud](./10-grocery-bud)          | [🔗 Preview](https://my-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled and Uncontrolled Inputs)        |
-| 11  | [Navbar](./11-navbar)                    | [🔗 Preview](https://my-11-navbar.netlify.app/)            | `useState`, `useEffect`, `useRef`, Conditional Rendering, List and Keys, Events                                                    |
-| 12  | [Modal and Sidebar](./12-sidebar-modal)  | [🔗 Preview](https://my-12-sidebar-modal.netlify.app/)     | `useState`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks, Conditional Rendering, List and Keys, Events |
-| 14  | [Cart](./14-cart)                        | [🔗 Preview](https://my-14-cart.netlify.app/)              | `useReducer`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks                                             |
+Each project focuses on essential React concepts, making it useful for beginners who want to practice or developers looking to explore specific implementations.
+
+| #   | Project                                                           | Live Demo                                                   | Key Topics Covered                                                                                                                 |
+| --- | ----------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Birthday Reminder](./04-fundamentals-projects/01-birthday-buddy) | [🔗 Preview](https://arj-01-birthday-reminder.netlify.app/) | `useState`, Conditional Rendering                                                                                                  |
+| 02  | [Tours](./04-fundamentals-projects/02-tours)                      | [🔗 Preview](https://arj-02-tours.netlify.app/)             | `useState`, `useEffect`, Conditional Rendering                                                                                     |
+| 03  | [Reviews](./04-fundamentals-projects/03-reviews)                  | [🔗 Preview](https://arj-03-reviews.netlify.app/)           | `useState`                                                                                                                         |
+| 04  | [Accordion](./04-fundamentals-projects/04-accordion)              | [🔗 Preview](https://arj-04-accordion.netlify.app/)         | `useState`, Conditional Rendering                                                                                                  |
+| 05  | [Menu](./04-fundamentals-projects/05-menu)                        | [🔗 Preview](https://arj-05-menu.netlify.app/)              | `useState`, `useEffect`, `useContext`, `createContext`, List and Keys, Conditional Rendering                                       |
+| 08  | [Lorem Ipsum](./04-fundamentals-projects/08-lorem-ipsum)          | [🔗 Preview](https://arj-08-lorem-ipsum.netlify.app/)       | `useState`, List and Keys, Events, Forms (Controlled Inputs)                                                                       |
+| 09  | [Color Generator](./04-fundamentals-projects/09-color-generator)  | [🔗 Preview](https://arj-09-color-generator.netlify.app/)   | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled Inputs)                         |
+| 10  | [Grocery Bud](./04-fundamentals-projects/10-grocery-bud)          | [🔗 Preview](https://arj-10-grocery-bud.netlify.app/)       | `useState`, Conditional Rendering, High Order Components, List and Keys, Events, Forms (Controlled and Uncontrolled Inputs)        |
+| 11  | [Navbar](./04-fundamentals-projects/11-navbar)                    | [🔗 Preview](https://arj-11-navbar.netlify.app/)            | `useState`, `useEffect`, `useRef`, Conditional Rendering, List and Keys, Events                                                    |
+| 12  | [Modal and Sidebar](./04-fundamentals-projects/12-sidebar-modal)  | [🔗 Preview](https://arj-12-sidebar-modal.netlify.app/)     | `useState`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks, Conditional Rendering, List and Keys, Events |
+| 14  | [Cart](./04-fundamentals-projects/14-cart)                        | [🔗 Preview](https://arj-14-cart.netlify.app/)              | `useReducer`, `useContext`, `createContext`, Context API, Global Context, Custom Hooks                                             |
+
+## Axios and React Query
+
+## Contentful CMS
 
 ## 🛠 How to Run Locally
 
@@ -25,14 +31,15 @@ If you want to run any of these projects locally, follow these steps:
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/alberto-rj/react-projects-from-johnsmilga.git
-   cd react-projects-from-johnsmilga
+   git clone https://github.com/alberto-rj/jm-react-course.git
+   cd jm-react-course
    ```
 
 2. **Navigate to the desired project directory:**
 
    ```bash
-     cd 01-birthday-buddy  # Example: Access the first project
+   # Example: Access the first project from the "04-fundamentals-projects" folder
+   cd 04-fundamentals-projects/01-birthday-buddy
    ```
 
 3. **Install dependencies:**
