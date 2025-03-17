@@ -2,6 +2,8 @@
 node_modules/
 final/
 react-app/
+global-context-example/
+.env
 
 # Ignore common build folders
 build/
