@@ -1,6 +1,13 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.css';
+
+import '@/app/globals.css';
+
+import Providers from '@/app/providers';
+
+import Container from '@/components/Container';
+import Navbar from '@/components/Navbar';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -18,7 +25,12 @@ export default function RootLayout({
 			lang='en'
 			suppressHydrationWarning
 		>
-			<body className={inter.className}>{children}</body>
+			<body className={inter.className}>
+				<Providers>
+					<Navbar />
+					<Container>{children}</Container>
+				</Providers>
+			</body>
 		</html>
 	);
 }
