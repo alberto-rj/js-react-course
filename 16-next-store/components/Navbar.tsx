@@ -1,4 +1,4 @@
-import Container from '@/components/global/Container';
+import Container from '@/components/Container';
 
 const Navbar = () => {
 	return (
