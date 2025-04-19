@@ -1,4 +1,5 @@
-const HomePage = () => {
-  return <div>Store Starter</div>;
+const Home = () => {
+	return <h1 className='text-4xl'>Home</h1>;
 };
-export default HomePage;
+
+export default Home;
