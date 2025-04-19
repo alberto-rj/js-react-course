@@ -12,7 +12,7 @@ const Logo = () => {
 			<Link href='/'>
 				<Code
 					aria-hidden={true}
-					className='size-6'
+					className='size-6 text-white'
 				/>
 				<span className='sr-only'>Next Store - Home</span>
 			</Link>
