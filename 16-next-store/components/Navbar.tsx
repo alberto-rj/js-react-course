@@ -8,7 +8,7 @@ import ThemePicker from '@/components/ThemePicker';
 function Navbar() {
 	return (
 		<nav className='border-b'>
-			<Container className='flex flex-col sm:flex-row  sm:justify-between sm:items-center sm:flex-wrap gap-4 py-8'>
+			<Container className='flex flex-col sm:flex-row sm:flex-wrap sm:justify-between sm:items-center gap-4 py-8'>
 				<Logo />
 				<NavSearch />
 				<div className='flex gap-4 items-center '>
