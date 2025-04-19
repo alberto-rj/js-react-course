@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: fantasy --default, dim;
+}
+
+@layer components {
+  /* page - start */
+  .c-page-wrapper {
+    @apply max-w-6xl px-8 mx-auto;
+  }
+  .c-page-content {
+    @apply min-h-screen grid place-items-center;
+  }
+  .c-page-title {
+    @apply text-center text-3xl font-bold;
+  }
+  /* page - end */
+
+  /* start */
+  .c-form-card {
+    @apply card max-w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4;
+  }
+  /* end */
+
+  /* start */
+  .c-nav-link {
+    @apply link link-hover text-xs sm:text-sm;
+  }
+  /* end */
+}
