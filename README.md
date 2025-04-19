@@ -1,26 +1,32 @@
 # 🚀 React Tutorials and Projects - John Smilga
 
-This repository documents my learning journey through [John Smilga's React course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF) on Udemy. The course provides a comprehensive path to mastering modern React development through hands-on projects.
+This repository documents my learning journey through
+[John Smilga's React course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
+on Udemy. The course provides a comprehensive path to mastering modern React
+development through hands-on projects.
 
 ## 📚 Course Progression
 
 ### ✅ Completed
 
 - **React Fundamentals**: Core concepts, JSX, components, props, events
-- **Advanced React**: Forms, controlled inputs, Uncontrolled inputs, context API, custom hooks, performance optimization: memoization, `useMemo`, `useCallback`, suspense API.
+- **Advanced React**: Forms, controlled inputs, Uncontrolled inputs, context
+  API, custom hooks, performance optimization: memoization, `useMemo`,
+  `useCallback`, suspense API.
 - **API Integration**: Axios for HTTP requests, React Query for state management
 - **CMS Integration**: Contentful for dynamic content management
-
-### 🔜 Coming Soon
-
 - **React Router**: Advanced routing and navigation
 - **Redux Toolkit**: State management for larger applications
 - **Tailwind CSS**: Utility-first CSS framework integration
 - **TypeScript**: Type safety in React applications
 - **React with TypeScript**: Building type-safe React components
+
+### 🔜 Coming Soon
+
 - **Next.js**: Server-side rendering and static site generation
 
-Each section includes practical, real-world projects to reinforce learning through application.
+Each section includes practical, real-world projects to reinforce learning
+through application.
 
 ## 📂 Repository Structure
 
@@ -80,7 +86,8 @@ The project will run at `http://localhost:5173` in your browser.
 
 ## 🌍 Backroads Project
 
-This early project focuses on applying React fundamentals by converting a static HTML template into a component-based React application.
+This early project focuses on applying React fundamentals by converting a static
+HTML template into a component-based React application.
 
 | Project                                     | Key Learnings                                                                                                       | Live Demo                                                   |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -88,7 +95,8 @@ This early project focuses on applying React fundamentals by converting a static
 
 ## 📌 Fundamental Projects
 
-Each project focuses on essential React concepts, making it useful for beginners who want to practice or developers looking to explore specific implementations.
+Each project focuses on essential React concepts, making it useful for beginners
+who want to practice or developers looking to explore specific implementations.
 
 | #   | Project                                                           | Key Learnings                                                                                 | Live Demo                                                   |
 | --- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -128,8 +136,10 @@ If you would like to contribute, feel free to:
 
 ## 🎯 Notes
 
-- These projects were built following the course content and can be enhanced with new features.
-- The purpose of this repository is to serve as a learning guide for anyone who wants to practice React progressively.
+- These projects were built following the course content and can be enhanced
+  with new features.
+- The purpose of this repository is to serve as a learning guide for anyone who
+  wants to practice React progressively.
 
 ---
 
