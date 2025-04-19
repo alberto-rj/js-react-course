@@ -10,7 +10,10 @@ const Logo = () => {
 			asChild
 		>
 			<Link href='/'>
-				<Code aria-hidden='true' className='size-6' />
+				<Code
+					aria-hidden={true}
+					className='size-6'
+				/>
 				<span className='sr-only'>Next Store - Home</span>
 			</Link>
 		</Button>
