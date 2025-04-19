@@ -22,7 +22,9 @@ const CartButton = () => {
 				<span
 					aria-hidden={true}
 					className='absolute -top-3 -right-3 bg-primary text-white rounded-full size-6 flex items-center justify-center text-xs'
-				></span>
+				>
+					{numItemsInCart}
+				</span>
 			</Link>
 		</Button>
 	);
