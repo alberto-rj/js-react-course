@@ -39,7 +39,7 @@ const ProductsGrid = ({ products }: Props) => {
 										</div>
 										<div className='mt-4 text-center'>
 											<h2 className='text-lg capitalize'>{name}</h2>
-											<p className='text-muted-foreground  mt-2'>
+											<p className='text-muted-foreground mt-2'>
 												{dollarsAmount}
 											</p>
 										</div>
