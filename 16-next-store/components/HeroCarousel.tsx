@@ -28,7 +28,9 @@ const HeroCarousel = () => {
 									<CardContent className='p-2'>
 										<Image
 											src={image}
-											alt='hero'
+											alt=''
+											width={384}
+											height={384}
 											className='w-full h-[24rem] rounded-md object-cover'
 										/>
 									</CardContent>
