@@ -1,5 +1,13 @@
+import FeaturedProducts from '@/components/FeaturedProducts';
+import Hero from '@/components/Hero';
+
 const Home = () => {
-	return <h1 className='text-4xl'>Home</h1>;
+	return (
+		<>
+			<Hero />
+			<FeaturedProducts />
+		</>
+	);
 };
 
 export default Home;
